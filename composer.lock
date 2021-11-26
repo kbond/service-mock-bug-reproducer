@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1df99772507d62fefe1f9396861602e7",
+    "content-hash": "bf4059528b88b63da85aa71ae2b5bbbb",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -7647,6 +7647,65 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "happyr/service-mocking",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Happyr/service-mocking.git",
+                "reference": "97e0b64917e8909099a6a7da0c4ec9a734998b92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Happyr/service-mocking/zipball/97e0b64917e8909099a6a7da0c4ec9a734998b92",
+                "reference": "97e0b64917e8909099a6a7da0c4ec9a734998b92",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofphp/proxy-manager-lts": "^1.0",
+                "php": ">=7.2",
+                "symfony/config": "^4.4 || ^5.1 || ^6.0",
+                "symfony/dependency-injection": "^4.4 || ^5.1 || ^6.0",
+                "symfony/http-kernel": "^4.4 || ^5.1 || ^6.0"
+            },
+            "require-dev": {
+                "nyholm/symfony-bundle-test": "^1.6",
+                "symfony/phpunit-bridge": "^5.3"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Happyr\\ServiceMocking\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com"
+                }
+            ],
+            "description": "Make it easy to mock services in a built container",
+            "keywords": [
+                "mock",
+                "symfony",
+                "testing"
+            ],
+            "support": {
+                "issues": "https://github.com/Happyr/service-mocking/issues",
+                "source": "https://github.com/Happyr/service-mocking/tree/0.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-08-20T19:02:04+00:00"
+        },
         {
             "name": "myclabs/deep-copy",
             "version": "1.10.2",
